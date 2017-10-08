@@ -11,21 +11,21 @@ def main():
     return serviceCost
     #serviceFee = calcServiceFee(serviceCost)
 
-#input statements
-serviceCost = input('The service cost is: ')
-#input statements
-serviceFee = input('The service fee is: ')
+    #input statements
+    serviceCost = input('The service cost is: ')
+    #input statements
+    serviceFee = input('The service fee is: ')
    
 
 #this module will input tire service price
 def inputTireServiceCost():
-   
+    return
 
     
 #this module will calculate a service fee at 5%
-    def calcServiceFee(serviceCost):
+def calcServiceFee(serviceCost):
     #serviceFee = serviceCost * .05
-        return serviceFee
+    return serviceFee
     
 #this module will calculate serviceTax at 8.25%
 def calcServiceTax(serviceCost):
@@ -41,11 +41,11 @@ def calcServiceTotal(serviceCost, serviceFee, serviceTax):
 
 #this module will print tireServiceCost, serviceFee,
 #serviceTax, and the serviceTotal cost
-    def printUserInfo(serviceCost, serviceFee, serviceTax, serviceTotal):
-        print 'The tire service cost is $', serviceCost
-        print 'The tire service fee is $', serviceFee
-        print 'The tire service tax is $', serviceTax
-        print 'The total amount is $', serviceTotal
+def printUserInfo(serviceCost, serviceFee, serviceTax, serviceTotal):
+    print 'The tire service cost is $', serviceCost
+    print 'The tire service fee is $', serviceFee
+    print 'The tire service tax is $', serviceTax
+    print 'The total amount is $', serviceTotal
    
 
 
